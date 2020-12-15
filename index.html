@@ -36,10 +36,10 @@
   				crossOrigin : true,
   				method: "GET",
   				dataType: 'jsonp',
-				url: "https://api.line.me/social-plugin/metrics?url=https://ailingcui.github.io/All-about-social-button/index"
+				url: "https://api.line.me/social-plugin/metrics?url=https://ailingcui.github.io/All-about-social-button/"
 			})
   				.done(function( msg ) {
-    				console.log(msg);
+    				console.log(msg.share);
   				});
  		</script>
  		
