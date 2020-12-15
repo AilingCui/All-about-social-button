@@ -33,11 +33,10 @@
   		<script>
   			$.ajax({
   				method: "GET",
-				url: "https://api.line.me/social-plugin/metrics",
-  				data: { url: "https://ailingcui.github.io/All-about-social-button/index" }
+				url: "https://api.line.me/social-plugin/metrics?url=https://ailingcui.github.io/All-about-social-button/index"
 			})
   				.done(function( msg ) {
-    				alert( "Data Saved: " + msg );
+    				console.log(msg);
   				});
  		</script>
  		
